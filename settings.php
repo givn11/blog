@@ -30,7 +30,7 @@ endif;
 
 $rows = getAllArticles();
 
-$menu = getAllsidebarMenu();
+$sidebar = getAllsidebarMenu();
 
 
 /*$sidebarMenu = [

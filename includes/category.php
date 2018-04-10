@@ -1,15 +1,15 @@
-<? include 'settings.php';?>
+<? include '../settings.php';?>
 <!DOCTYPE html>
 <html lang="ru">
 
 <head>
-    <? include_once 'includes/head.php' ?>
+    <? include_once 'head.php' ?>
 </head>
 
 <body>
 
 <!-- Navigation -->
-<?php include_once 'includes/header.php'; ?>
+<?php include_once 'header.php'; ?>
 
 <!-- Page Content -->
 <div class="container">
@@ -55,20 +55,20 @@
         </div>
 
         <!-- Sidebar -->
-        <?php include 'includes/sidebar.php' ?>
+        <?php include 'sidebar.php' ?>
 
         <div class="clearfix"></div>
     </div>
 
 
     <!-- Pagination -->
-    <?php include 'includes/pagination.php' ?>
+    <?php include 'pagination.php' ?>
 
 </div>
 <!-- /.container -->
 
 <!-- Footer -->
-<?php include 'includes/footer.php' ?>
+<?php include 'footer.php' ?>
 
 </body>
 

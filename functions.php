@@ -27,8 +27,8 @@ function getAllsidebarMenu(){
 	global $link;
 	$sql = 'SELECT cat_id, name FROM categories';
 	$res = mysqli_query($link, $sql);
-	$menu = mysqli_fetch_all($res, MYSQLI_ASSOC);
-	return $menu;
+	$sidebar = mysqli_fetch_all($res, MYSQLI_ASSOC);
+	return $sidebar;
 }
 
 //Категории
